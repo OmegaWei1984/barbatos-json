@@ -1,7 +1,8 @@
 #include <iostream>
+#include <string>
 
 #include "barbjson.hpp"
 
-void Barbjson::test() {
-    std::cout << "hello" << std::endl;
+std::string Barbjson::test() {
+    return "hello";
 }

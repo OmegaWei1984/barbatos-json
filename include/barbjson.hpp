@@ -1,4 +1,6 @@
+#include <string>
+
 class Barbjson {
 public:
-    void test();
+    std::string test();
 };

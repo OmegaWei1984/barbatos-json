@@ -1,7 +1,7 @@
+#include <gtest/gtest.h>
 #include "barbjson.hpp"
 
-int main(void) {
+TEST(HelloTest, CaseHello) {
     Barbjson barbjson;
-    barbjson.test();
-    return 0;
+    EXPECT_EQ(barbjson.test(), "hello");
 }
