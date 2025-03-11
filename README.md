@@ -5,3 +5,7 @@
 ```sh
 cmake .. -DCMAKE_CXX_COMPILER=/path/to/clang++
 ```
+
+```powershell
+cmake .. -DCMAKE_CXX_COMPILER="/path/to/clang++" -G "Visual Studio 17 2022" -A x64
+```
